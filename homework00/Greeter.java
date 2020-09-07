@@ -1,9 +1,9 @@
-public class Greeter.java {
-	
-	public static void main( String [] args ) ;
+public class Greeter {
 
-	System.out.println( "Hello world!" ) ;
-}
+//   public static void main( String [] args ) ;
+   public static void main( String [] args ) {
 
+      System.out.println( "Hello world!" ) ;
 
+   }
 }

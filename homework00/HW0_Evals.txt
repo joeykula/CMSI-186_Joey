@@ -1,0 +1,74 @@
+
+Evaluation for homework 00: Greeter
+   and Java Environment set up
+   and GitHub repository set up/initialization
+============================================
+
+There must be a GitHub repository to which you have invited your humble
+professor to collaborate.  The structure of the repository must be as is
+specified in the assignment, including the name of the repo.  There must
+be a "Greeter.java" source code file in the repository.  You do not need
+to include the "Greeter.class" file unless you want to do so.  It will
+be assumed that you have a working editor of some kind to create your
+code and that it is configured correctly [no "funny" characters].  It will
+also be assumed that you have a working Java installation so that your
+compiler and JVM can execute your code.
+
+============================================================================
+Evaluation:
+============================================================================
+Maximum points: 8 out of 8 = 100% which is an A-plus
+
+Java works        1.00 out of 1.00
+Repo created      2.00 out of 2.00
+Editor works      1.00 out of 1.00
+Greeter runs      2.00 out of 2.00
+Greeter in Repo   2.00 out of 2.00
+
+Your score:
+Total 8 out of 8 = 100% which is an A-plus
+
+
+Explicit comments on the exercise:
+----------------------------------
+Your code did not compile!  The problem is you are missing a curly brace and
+instead have a semicolon.  I fixed your code for you this time, and commented
+the offending line so you can see the difference.  Here it is again:
+
+IS:
+
+   public static void main( String [] args ) ;
+
+
+SHOULD BE:
+
+   public static void main( String [] args ) {
+
+Remember, code that doesn't compile will get no credit!
+
+Also, try to be consistent about your indenting.  Make sure the closing
+curly brace aligns with the first character of the line that starts the
+definition for that block.  Further, make sure that everything inside that
+block is indented to the same level.  Example:
+
+   public void starting_line() {
+      // line one
+      // line two
+      // all lines indented to the same level
+
+   }   <==  PUT CLOSING CURLY BRACE HERE
+
+   public void starting_line() {
+      // line one
+      // line two
+      // all lines indented to the same level
+
+}      <==  DON'T PUT CLOSING CURLY BRACE HERE
+
+Finally, the name INSIDE the class file should NOT have the ".java" extent
+applied.  It's "public class Greeter" not "public class Greeter.java".  That
+is another reason your code didn't compile.  Make sure you try it from the
+command line before you commit for submission.  I fixed everything and gave
+you credit anyhow THIS time.....  :D
+
+Otherwise, Nice work!
