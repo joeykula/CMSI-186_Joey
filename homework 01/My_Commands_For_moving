@@ -4,19 +4,19 @@ ls
 
 #first I moved all the right artist folders into the right genre
 
-mv country/NickiMinaj hip-hop-rap
+mv country/NickiMinaj hip-hop-rap 
 mv rock/CardiB hip-hop-rap
-mv soul/JuiceWrld hip-hop-rap
-mv hip-hop-rap/SmokeyRobinson soul
-mv reggae/Temptations soul
+mv soul/JuiceWrld hip-hop-rap #the GOAT...RIP to the king
+mv hip-hop-rap/SmokeyRobinson soul #The father of R&B
+mv reggae/Temptations soul #One of my personal favorites of all time
 mv funk/FourTops soul
-mv soul/EarthWindAndFire funk
+mv soul/EarthWindAndFire funk #The first band to get me into music
 mv country/OhioPlayers funk
 mv reggae/Funkadelic funk
 mv hip-hop-rap/Aerosmith rock
 mv funk/GunsNRoses rock
 mv funk/AlanisMorissette rock
-mv country/BobMarley reggae
+mv country/BobMarley reggae #RIP to another king 
 mv soul/JimmyCliff reggae
 mv rock/PeterTosh reggae
 mv hip-hop-rap/PatsyCline country
