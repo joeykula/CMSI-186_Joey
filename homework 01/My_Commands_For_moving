@@ -1,0 +1,60 @@
+cd CMSI-186_Joey/CMSI-186_Joey/homework 01/music-mashup
+
+ls 
+
+#first I moved all the right artist folders into the right genre
+
+mv country/NickiMinaj hip-hop-rap
+mv rock/CardiB hip-hop-rap
+mv soul/JuiceWrld hip-hop-rap
+mv hip-hop-rap/SmokeyRobinson soul
+mv reggae/Temptations soul
+mv funk/FourTops soul
+mv soul/EarthWindAndFire funk
+mv country/OhioPlayers funk
+mv reggae/Funkadelic funk
+mv hip-hop-rap/Aerosmith rock
+mv funk/GunsNRoses rock
+mv funk/AlanisMorissette rock
+mv country/BobMarley reggae
+mv soul/JimmyCliff reggae
+mv rock/PeterTosh reggae
+mv hip-hop-rap/PatsyCline country
+mv reggae/GarthBrooks country
+mv soul/DollyParton country
+
+#Second I added, committed and pushed this to github 
+
+git add .
+git commit -m "rearranged all the folders/artist names into the right genre"
+git push origin master
+
+#Third I placed the right picture into the right folder
+
+mv rock/GunsNRoses/DollyParton.jpg country/DollyParton
+mv funk/Funkadelic/GarthBrooks.jpg country/GarthBrooks
+mv hip-hop-rap/JuiceWrld/PatsyCline.jpg country/PatsyCline
+mv country/DollyParton/EarthWindAndFire.jpg funk/EarthWindAndFire
+mv country/PatsyCline/Funkadelic.jpg funk/Funkadelic
+mv country/GarthBrooks/OhioPlayers.jpg funk/OhioPlayers
+mv soul/FourTops/cardi-b_18.jpg hip-hop-rap/CardiB
+mv rock/AlanisMorissette/juice-wrld_12.jpg hip-hop-rap/JuiceWrld 
+mv rock/Aerosmith/nicki-minaj_13.jpg hip-hop-rap/NickiMinaj
+mv funk/OhioPlayers/BobMarley.jpg reggae/BobMarley
+mv hip-hop-rap/CardiB/JimmyCliff.jpg reggae/JimmyCliff
+mv soul/Temptations/Beat65ToshCover.jpg reggae/PeterTosh
+mv reggae/JimmyCliff/aerosmith.jpg rock/Aerosmith
+mv soul/SmokeyRobinson/AlanisMorissette.png rock/AlanisMorissette
+mv reggae/BobMarley/Guns-n-Roses.jpg rock/GunsNRoses
+mv hip-hop-rap/NickiMinaj/FourTops.jpg soul/FourTops
+mv reggae/PeterTosh/SmokeyRobinson.jpg soul/SmokeyRobinson
+mv funk/EarthWindAndFire/Temptations.jpg soul/Temptations
+
+
+#finally I added, committed and pushed to github
+
+git add .
+git commit -m "moved the photogrpahs to make the right folders"
+git push origin master
+
+
