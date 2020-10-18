@@ -1,0 +1,587 @@
+.                                       
+.                                       
+======================================  
+... Testing Ball class ...              
+======================================  
+
+BALL CLASS TESTER PROGRAM
+--------------------------
+
+  Creating a new ball: 
+    New ball created: A Ball at (0.0,0.0) with a speed of 1.414
+     Testing toString() method 
+     Info about the ball should be displayed
+     Testing getCurrentX_Position() and getCurrentY_Position() methods
+     Location should be (0,0) 
+     Testing getCurrentSpeed() method 
+     Result should have said 0
+     The ball is still moving
+     Testing isStillMoving() method 
+     Result should have said  The ball is still moving
+     The ball is in bounds
+     Testing isInBounds() method 
+     Result should have said the ball is in bounds 
+
+ Testing move() method. Ball should be moved once with DEFAULT_TIMELICE
+A Ball at (1.0,1.0) with a speed of 1.4
+     Testing toString() method 
+     Info about the ball should be displayed
+     Testing getCurrentX_Position() and getCurrentY_Position() methods
+     Location should be (1.0,1.0) 
+     Testing getCurrentSpeed() method 
+     Result should have said 1.4
+     The ball is still moving
+     Testing isStillMoving() method 
+     Result should have said  The ball is still moving
+     The ball is in bounds
+     Testing isInBounds() method 
+     Result should have said the ball is in bounds 
+
+ Testing move() method. to see if friction was applied. Ball should be moved once again with the same time slice
+A Ball at (1.99,1.99) with a speed of 1.386
+     Testing toString() method 
+     Info about the ball should be displayed
+     Testing getCurrentX_Position() and getCurrentY_Position() methods
+     Location should be (1.99,1.99) 
+     Testing getCurrentSpeed() method 
+     Result should have said 1.386
+     The ball is still moving
+     Testing isStillMoving() method 
+     Result should have said  The ball is still moving
+     The ball is in bounds
+     Testing isInBounds() method 
+     Result should have said the ball is in bounds 
+
+ Testing move() method to see if it works after multiple iterations; move() method is caleed 18 more times with the same time slice
+A Ball at (18.209,18.209) with a speed of 1.157
+     Testing toString() method 
+     Info about the ball should be displayed
+     Testing getCurrentX_Position() and getCurrentY_Position() methods
+     Location should be (18.209,18.209) 
+     Testing getCurrentSpeed() method 
+     Result should have said 1.157
+     The ball is still moving
+     Testing isStillMoving() method 
+     Result should have said  The ball is still moving
+     The ball is in bounds
+     Testing isInBounds() method 
+     Result should have said the ball is in bounds 
+
+ Testing move() method to see if it works after lots of iterations; move() method is caleed 80 more times with the same time slice
+A Ball at (86.602,86.602) with a speed of 0.189
+     Testing toString() method 
+     Info about the ball should be displayed
+     Testing getCurrentX_Position() and getCurrentY_Position() methods
+     Location should be (86.602,86.602) 
+     Testing getCurrentSpeed() method 
+     Result should have said .189
+     The ball is still moving
+     Testing isStillMoving() method 
+     Result should have said  The ball is still moving
+     The ball is NOT in bounds
+     Testing isInBounds() and setOfBounds() methods 
+     Result should have said the ball is NOT in bounds as the x_position is now out of bounds
+     
+Moving ball once again to check setOutOfBounds() method 
+     The setOutOfBounds() method should have revert the speed to 0 so the postion should not have changed
+A Ball at (86.602,86.602) with a speed of 0.0
+     Testing toString() method 
+     Info about the ball should be displayed
+     Testing getCurrentX_Position() and getCurrentY_Position() methods
+     Location should be (86.602,86.602) 
+     Testing getCurrentSpeed() method 
+     Result should have said .189
+     The ball is NOT moving
+     Testing isStillMoving() method 
+     Result should have said  The ball is NOT moving as the ball is no longer moving
+     The ball is NOT in bounds
+     Testing isInBounds() and setOfBounds() methods 
+     Result should have said the ball is NOT in bounds as the x_position is now out of bounds
+.                                       
+.                                       
+.                                       
+.                                       
+======================================  
+... Testing  class ...                
+======================================  
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim no args...        
+...   Should throw exception that won't show in results 
+...   Or should output a message of some type 
+======================================  
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim one arg...        
+...   Should throw exception that won't show in results 
+...   Or should output a message of some type 
+======================================  
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim two args...       
+...   Should throw exception that won't show in results 
+...   Or should output a message of some type 
+======================================  
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim three args...     
+...   Should throw exception that won't show in results 
+...   Or should output a message of some type 
+======================================  
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim six args...       
+...   Should throw exception that won't show in results 
+...   Or should output a message of some type 
+======================================  
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim out of bounds...  
+...   Should throw exception that won't show in results 
+...   Or should output a message of some type 
+======================================  
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim negative time slice...
+...   Should throw exception that won't show in results 
+...   Or should output a message of some type 
+======================================  
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim time slice too large...
+...   Should throw exception that won't show in results 
+...   Or should output a message of some type 
+======================================  
+
+ Welcome to SoccerSim! 
+
+This program simulates an arbitrary number of soccer balls being kicked on a perfectly flat playground with a height of 350 and a wideth of 150, at speeds and directions dictated by the user!
+
+Do you want a flag pole in the field? 
+Y - yes 
+N - no
+
+Pole created at (49,-131) proceding with simulation...
+
+At time t = 0.0 secounds:
+A Ball at (10.0,10.0) with a speed of 7.071
+
+At time t = 1800.1 secounds:
+A Ball at (9010.5,9010.5) with a speed of 0.0
+
+A ball is no longer in bounds. No collisions detected. Simulation Ending
+This program ran a total of 1 iterations
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim time slice value of zero...
+...   Should throw exception that won't show in results 
+...   Or should output a message of some type 
+======================================  
+
+ Welcome to SoccerSim! 
+
+This program simulates an arbitrary number of soccer balls being kicked on a perfectly flat playground with a height of 350 and a wideth of 150, at speeds and directions dictated by the user!
+
+Do you want a flag pole in the field? 
+Y - yes 
+N - no
+
+Pole created at (-61,-170) proceding with simulation...
+
+At time t = 0.0 secounds:
+A Ball at (10.0,10.0) with a speed of 7.071
+
+At time t = 0.0 secounds:
+A Ball at (10.0,10.0) with a speed of 0.0
+
+At t = 0.0, all balls stopped moving. No collisions detected
+This program ran a total of 1 iterations
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim valid ball should come to rest...
+...   Should stop at about 4:42           
+======================================  
+
+ Welcome to SoccerSim! 
+
+This program simulates an arbitrary number of soccer balls being kicked on a perfectly flat playground with a height of 350 and a wideth of 150, at speeds and directions dictated by the user!
+
+Do you want a flag pole in the field? 
+Y - yes 
+N - no
+
+Pole created at (35,127) proceding with simulation...
+
+At time t = 0.0 secounds:
+A Ball at (10.0,10.0) with a speed of 1.414
+
+At time t = 1.0 secounds:
+A Ball at (11.0,11.0) with a speed of 1.4
+
+At time t = 2.0 secounds:
+A Ball at (11.99,11.99) with a speed of 1.386
+
+At time t = 3.0 secounds:
+A Ball at (12.97,12.97) with a speed of 1.372
+
+At time t = 4.0 secounds:
+A Ball at (13.94,13.94) with a speed of 1.358
+
+At time t = 5.0 secounds:
+A Ball at (14.901,14.901) with a speed of 1.345
+
+At time t = 6.0 secounds:
+A Ball at (15.852,15.852) with a speed of 1.331
+
+At time t = 7.0 secounds:
+A Ball at (16.793,16.793) with a speed of 1.318
+
+At time t = 8.0 secounds:
+A Ball at (17.726,17.726) with a speed of 1.305
+
+At time t = 9.0 secounds:
+A Ball at (18.648,18.648) with a speed of 1.292
+
+At time t = 10.0 secounds:
+A Ball at (19.562,19.562) with a speed of 1.279
+
+At time t = 11.0 secounds:
+A Ball at (20.466,20.466) with a speed of 1.266
+
+At time t = 12.0 secounds:
+A Ball at (21.362,21.362) with a speed of 1.254
+
+At time t = 13.0 secounds:
+A Ball at (22.248,22.248) with a speed of 1.241
+
+At time t = 14.0 secounds:
+A Ball at (23.125,23.125) with a speed of 1.229
+
+At time t = 15.0 secounds:
+A Ball at (23.994,23.994) with a speed of 1.216
+
+At time t = 16.0 secounds:
+A Ball at (24.854,24.854) with a speed of 1.204
+
+At time t = 17.0 secounds:
+A Ball at (25.706,25.706) with a speed of 1.192
+
+At time t = 18.0 secounds:
+A Ball at (26.549,26.549) with a speed of 1.18
+
+At time t = 19.0 secounds:
+A Ball at (27.383,27.383) with a speed of 1.168
+
+At time t = 20.0 secounds:
+A Ball at (28.209,28.209) with a speed of 1.157
+
+At time t = 21.0 secounds:
+A Ball at (29.027,29.027) with a speed of 1.145
+
+At time t = 22.0 secounds:
+A Ball at (29.837,29.837) with a speed of 1.134
+
+At time t = 23.0 secounds:
+A Ball at (30.639,30.639) with a speed of 1.122
+
+At time t = 24.0 secounds:
+A Ball at (31.432,31.432) with a speed of 1.111
+
+At time t = 25.0 secounds:
+A Ball at (32.218,32.218) with a speed of 1.1
+
+At time t = 26.0 secounds:
+A Ball at (32.996,32.996) with a speed of 1.089
+
+At time t = 27.0 secounds:
+A Ball at (33.766,33.766) with a speed of 1.078
+
+At time t = 28.0 secounds:
+A Ball at (34.528,34.528) with a speed of 1.067
+
+At time t = 29.0 secounds:
+A Ball at (35.283,35.283) with a speed of 1.057
+
+At time t = 30.0 secounds:
+A Ball at (36.03,36.03) with a speed of 1.046
+
+At time t = 31.0 secounds:
+A Ball at (36.77,36.77) with a speed of 1.036
+
+At time t = 32.0 secounds:
+A Ball at (37.502,37.502) with a speed of 1.025
+
+At time t = 33.0 secounds:
+A Ball at (38.227,38.227) with a speed of 1.015
+
+At time t = 34.0 secounds:
+A Ball at (38.945,38.945) with a speed of 1.005
+
+At time t = 35.0 secounds:
+A Ball at (39.655,39.655) with a speed of 0.995
+
+At time t = 36.0 secounds:
+A Ball at (40.359,40.359) with a speed of 0.985
+
+At time t = 37.0 secounds:
+A Ball at (41.055,41.055) with a speed of 0.975
+
+At time t = 38.0 secounds:
+A Ball at (41.745,41.745) with a speed of 0.965
+
+At time t = 39.0 secounds:
+A Ball at (42.427,42.427) with a speed of 0.956
+
+At time t = 40.0 secounds:
+A Ball at (43.103,43.103) with a speed of 0.946
+
+At time t = 41.0 secounds:
+A Ball at (43.772,43.772) with a speed of 0.937
+
+At time t = 42.0 secounds:
+A Ball at (44.434,44.434) with a speed of 0.927
+
+At time t = 43.0 secounds:
+A Ball at (45.09,45.09) with a speed of 0.918
+
+At time t = 44.0 secounds:
+A Ball at (45.739,45.739) with a speed of 0.909
+
+At time t = 45.0 secounds:
+A Ball at (46.381,46.381) with a speed of 0.9
+
+At time t = 46.0 secounds:
+A Ball at (47.018,47.018) with a speed of 0.891
+
+At time t = 47.0 secounds:
+A Ball at (47.647,47.647) with a speed of 0.882
+
+At time t = 48.0 secounds:
+A Ball at (48.271,48.271) with a speed of 0.873
+
+At time t = 49.0 secounds:
+A Ball at (48.888,48.888) with a speed of 0.864
+
+At time t = 50.0 secounds:
+A Ball at (49.499,49.499) with a speed of 0.856
+
+At time t = 51.0 secounds:
+A Ball at (50.104,50.104) with a speed of 0.847
+
+At time t = 52.0 secounds:
+A Ball at (50.703,50.703) with a speed of 0.839
+
+At time t = 53.0 secounds:
+A Ball at (51.296,51.296) with a speed of 0.83
+
+At time t = 54.0 secounds:
+A Ball at (51.883,51.883) with a speed of 0.822
+
+At time t = 55.0 secounds:
+A Ball at (52.465,52.465) with a speed of 0.814
+
+At time t = 56.0 secounds:
+A Ball at (53.04,53.04) with a speed of 0.806
+
+At time t = 57.0 secounds:
+A Ball at (53.609,53.609) with a speed of 0.797
+
+At time t = 58.0 secounds:
+A Ball at (54.173,54.173) with a speed of 0.79
+
+At time t = 59.0 secounds:
+A Ball at (54.732,54.732) with a speed of 0.782
+
+At time t = 60.0 secounds:
+A Ball at (55.284,55.284) with a speed of 0.774
+
+At time t = 61.0 secounds:
+A Ball at (55.831,55.831) with a speed of 0.766
+
+At time t = 62.0 secounds:
+A Ball at (56.373,56.373) with a speed of 0.758
+
+At time t = 63.0 secounds:
+A Ball at (56.909,56.909) with a speed of 0.751
+
+At time t = 64.0 secounds:
+A Ball at (57.44,57.44) with a speed of 0.743
+
+At time t = 65.0 secounds:
+A Ball at (57.966,57.966) with a speed of 0.736
+
+At time t = 66.0 secounds:
+A Ball at (58.486,58.486) with a speed of 0.729
+
+At time t = 67.0 secounds:
+A Ball at (59.001,59.001) with a speed of 0.721
+
+At time t = 68.0 secounds:
+A Ball at (59.511,59.511) with a speed of 0.714
+
+At time t = 69.0 secounds:
+A Ball at (60.016,60.016) with a speed of 0.707
+
+At time t = 70.0 secounds:
+A Ball at (60.516,60.516) with a speed of 0.7
+
+At time t = 71.0 secounds:
+A Ball at (61.011,61.011) with a speed of 0.693
+
+At time t = 72.0 secounds:
+A Ball at (61.501,61.501) with a speed of 0.686
+
+At time t = 73.0 secounds:
+A Ball at (61.986,61.986) with a speed of 0.679
+
+At time t = 74.0 secounds:
+A Ball at (62.466,62.466) with a speed of 0.672
+
+At time t = 75.0 secounds:
+A Ball at (62.941,62.941) with a speed of 0.666
+
+At time t = 76.0 secounds:
+A Ball at (63.412,63.412) with a speed of 0.659
+
+At time t = 77.0 secounds:
+A Ball at (63.878,63.878) with a speed of 0.652
+
+At time t = 78.0 secounds:
+A Ball at (64.339,64.339) with a speed of 0.646
+
+At time t = 79.0 secounds:
+A Ball at (64.796,64.796) with a speed of 0.639
+
+At time t = 80.0 secounds:
+A Ball at (65.248,65.248) with a speed of 0.633
+
+At time t = 81.0 secounds:
+A Ball at (65.695,65.695) with a speed of 0.627
+
+At time t = 82.0 secounds:
+A Ball at (66.138,66.138) with a speed of 0.62
+
+At time t = 83.0 secounds:
+A Ball at (66.577,66.577) with a speed of 0.614
+
+At time t = 84.0 secounds:
+A Ball at (67.011,67.011) with a speed of 0.608
+
+At time t = 85.0 secounds:
+A Ball at (67.441,67.441) with a speed of 0.602
+
+At time t = 86.0 secounds:
+A Ball at (67.867,67.867) with a speed of 0.596
+
+At time t = 87.0 secounds:
+A Ball at (68.288,68.288) with a speed of 0.59
+
+At time t = 88.0 secounds:
+A Ball at (68.705,68.705) with a speed of 0.584
+
+At time t = 89.0 secounds:
+A Ball at (69.118,69.118) with a speed of 0.578
+
+At time t = 90.0 secounds:
+A Ball at (69.527,69.527) with a speed of 0.572
+
+At time t = 91.0 secounds:
+A Ball at (69.932,69.932) with a speed of 0.567
+
+At time t = 92.0 secounds:
+A Ball at (70.332,70.332) with a speed of 0.561
+
+At time t = 93.0 secounds:
+A Ball at (70.729,70.729) with a speed of 0.0
+
+A ball is no longer in bounds. No collisions detected. Simulation Ending
+This program ran a total of 93 iterations
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim check for collision...
+...   Should collide at about 5 seconds   
+======================================  
+
+ Welcome to SoccerSim! 
+
+This program simulates an arbitrary number of soccer balls being kicked on a perfectly flat playground with a height of 350 and a wideth of 150, at speeds and directions dictated by the user!
+
+Do you want a flag pole in the field? 
+Y - yes 
+N - no
+
+Pole created at (-46,-134) proceding with simulation...
+
+At time t = 0.0 secounds:
+A Ball at (10.0,10.0) with a speed of 1.414
+A Ball at (20.0,20.0) with a speed of 1.414
+
+At time t = 1.0 secounds:
+A Ball at (11.0,11.0) with a speed of 1.4
+A Ball at (19.0,19.0) with a speed of 1.4
+
+At time t = 2.0 secounds:
+A Ball at (11.99,11.99) with a speed of 1.386
+A Ball at (18.01,18.01) with a speed of 1.386
+
+Balls collided at t = 2.0 secounds
+This program ran a total of 2 iterations
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim valid ball should go out of bounds...
+...   Speed *should* kick it out quickly  
+======================================  
+
+ Welcome to SoccerSim! 
+
+This program simulates an arbitrary number of soccer balls being kicked on a perfectly flat playground with a height of 350 and a wideth of 150, at speeds and directions dictated by the user!
+
+Do you want a flag pole in the field? 
+Y - yes 
+N - no
+
+Pole created at (-36,-143) proceding with simulation...
+
+At time t = 0.0 secounds:
+A Ball at (10.0,10.0) with a speed of 1414.214
+
+At time t = 1.0 secounds:
+A Ball at (1010.0,1010.0) with a speed of 0.0
+
+A ball is no longer in bounds. No collisions detected. Simulation Ending
+This program ran a total of 1 iterations
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim valid ball set six balls subsecond time slice...
+...   Should collide Ball 1 and 4 in less than 1 sec  
+======================================  
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim valid ball set five balls 1.234 second time slice...
+...   Should say "not possible @ 13:29.5"  
+======================================  
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim valid ball set ten balls 10 second time slice...
+...   Should contact ball 1 and 8 @ 30 sec  
+======================================  
+.                                       
+.                                       
+======================================  
+... End of SoccerSim Testing...         
+======================================  

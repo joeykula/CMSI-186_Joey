@@ -59,42 +59,42 @@ HighRoll.java files.
 
 A total of one point each for the following, except where noted:
 
-class Die         : Exists, coding style acceptable   - 0 point
-constructor       : works                             - 0 point
-roll              : works                             - 0 point
-getValue          : works                             - 0 point
-instan. toString  : works                             - 0 point
-class toString    : works                             - 0 point
+class Die         : Exists, coding style acceptable   - 1 point
+constructor       : works                             - 1 point
+roll              : works                             - 1 point
+getValue          : works                             - 1 point
+instan. toString  : works                             - 1 point
+class toString    : works                             - 1 point
 main for testing  : Exists, with some tests in it     - 0 point
 
-class DiceSet     : Exists, coding style acceptable   - 0 point
-constructor       : works                             - 0 point
-sum               : works                             - 0 point
-roll              : works                             - 0 point
-rollIndividual    : works                             - 0 point
-getIndividual     : works                             - 0 point
-instan. toString  : works                             - 0 point
-class toString    : works                             - 0 point
-isIdentical       : works                             - 0 point
+class DiceSet     : Exists, coding style acceptable   - 1 point
+constructor       : works                             - 1 point
+sum               : works                             - 1 point
+roll              : works                             - 1 point
+rollIndividual    : works                             - 1 point
+getIndividual     : works                             - 1 point
+instan. toString  : works                             - 1 point
+class toString    : works                             - 1 point
+isIdentical       : works                             - 1 point
 main for testing  : Exists, with some tests in it     - 0 point
 
-class HighRoll    : Exists, coding style acceptable   - 0 point
-TUI:              : works, all options present        - 0 point
-option 1 roll all : works                             - 0 point
-option 2 roll one : works                             - 0 point
-option 3 sum      : works                             - 0 point
-option 4 save     : works                             - 0 point
-option 5 display  : works                             - 0 point
-option 6 quit     : works                             - 0 point
+class HighRoll    : Exists, coding style acceptable   - 1 point
+TUI:              : works, all options present        - 1 point
+option 1 roll all : works                             - 0.5 point
+option 2 roll one : works                             - 0.5 point
+option 3 sum      : works                             - 0.5 point
+option 4 save     : works                             - 0.5 point
+option 5 display  : works                             - 0.5 point
+option 6 quit     : works                             - 1 point
 
-Files in Git      : all three present                 - 1 points
-Test Harness      : passes all evaluation tests       - 0 points
-HighRoll          : passes all evaluation tests       - 0 points
+Files in Git      : all three present                 - 3 points
+Test Harness      : passes all evaluation tests       - 5 points
+HighRoll          : passes all evaluation tests       - 4 points
 
 Total 37 out of 37 = 100% which is an A-plus
 
 Your score:
-Total 1 out of 37 = 2.7% which is not so good....
+Total 32.5 out of 37 = 87.84% which is a B-plus
 
 Explicit comments on the exercise:
 ----------------------------------
@@ -104,3 +104,32 @@ Not a lot I can do on that, except give you credit for the one file in your
 repository.....
 
 Sorry.
+
+UPDATED 2020-10-18
+==================
+I still had to re-name your files.  Java source file names MUST end with the
+".java" file extent.  I fixed that for you.
+
+There was a single compile error in the Die class because you were missing a
+closing curly brace at the end of the file.  I fixed that for you, too.
+
+There are no individual tests in the Die or DiceSet classes.  However, your
+HighRoll game shows that the methods work, so you earned credit there.
+
+Your menu uses letters instead of numbers.  Numbers were specified on the
+problem description and in the class lecture/discussion.  You earn 1/2 credit
+for those.
+
+You pass all the test harness tests!
+
+I had to re-write the input test files so they used letters instead of numbers
+to match your program.  Once I did that, everything works as advertised.  You
+didn't earn quite as many points for the HighRoll class, but you earned full
+points for the evaluation test cases.
+
+I'm sure you'll be pleased with the results of this re-do effort, Joey!
+
+Although it's quite a bit late, I'm not going to make an issue of that.
+
+Nice work!
+
