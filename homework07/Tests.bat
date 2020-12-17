@@ -1,9 +1,7 @@
 @del TestResults.txt
 @del .class
-@rmdir /Q /S docs
 
-@mkdir docs
-@javadoc -d docs Birthday_solver.java
+
 @javac BirthdaySolver.java
 
 @echo Creating TestResults file...
