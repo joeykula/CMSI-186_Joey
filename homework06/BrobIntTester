@@ -1,0 +1,35 @@
+public class BrobIntTester {
+	public static void main( String[] args ) {
+	 System.out.println( "\n  BrobInt Testing!\n" );
+	  
+     BrobInt b1 = null;;
+     try { System.out.println( "   Making a new BrobInt: " ); b1 = new BrobInt( "152648927294" ); }
+     catch( Exception e ) { System.out.println( "        Exception thrown:  " + e.toString() ); }
+     
+     try { System.out.println( "   expecting: 1638593727492927392\n     and got: " + b1.toString() ); }
+     catch( Exception e ) { System.out.println( "        Exception thrown:  " + e.toString() ); }
+
+     System.out.println( "\n    Multiplying 736950293 by 3: " );
+     try { System.out.println( "      expecting: 221085000\n        and got: " + new BrobInt("736950293").multiply( BrobInt.Tres ) ); }
+     catch( Exception e ) { System.out.println( "        Exception thrown:  " + e.toString() ); }
+
+     System.out.println( "\n    Multiplying 3 by 82832833 and adding 1: " );
+     try { System.out.println( "      expecting: 248498500\n        and got: " + BrobInt.Tres.multiply( new BrobInt( "82832833" ) ).add( BrobInt.Uno ) ); }
+     catch( Exception e ) { System.out.println( "        Exception thrown:  " + e.toString() ); }
+
+     System.out.println( "\n    Dividing 62859264829 by 9483949038: " );
+     try { System.out.println( "      expecting: 2435228\n        and got: " + new BrobInt("62859264829").divide( new BrobInt("9483949038") ) ); }
+     catch( Exception e ) { System.out.println( "        Exception thrown:  " + e.toString() ); }
+
+     try { System.out.println( "\n\n   Making a new BrobInt: " ); b1 = new BrobInt( "-99999" ); }
+     catch( Exception e ) { System.out.println( "        Exception thrown:  " ); }
+     
+     System.out.println( "\n   Testing equals() method on b1 of -99999 and b2 of 99999: " );
+     try { System.out.println( "      expecting: false\n        and got: " + b1.equals( new BrobInt( "99999" ) ) ); }
+     catch( Exception e ) { System.out.println( "        Exception thrown:  " + e.toString() ); }
+     
+     System.out.println( "\n   Testing equals() method on b1 of -99999 and b2 of -99999: " );
+     try { System.out.println( "      expecting: true\n        and got: " + b1.equals( new BrobInt( "-99999" ) ) ); }
+     catch( Exception e ) { System.out.println( "        Exception thrown:  " + e.toString() ); }
+ }
+}
