@@ -1,1 +1,95 @@
+Test Results 
+Running Birthday_solver with heeheehee and hoohoohoo as inputs... 
+Whoops! Looks like you didn't enter your arguments in correctly.
 
+The correct syntax is: Java BirthdaySolver <number of people> <number of trials (optional)>
+. 
+Running Birthday_solver with 500 and 100000000 as inputs... 
+Woah there, your inputs are way, way, way too big! Think a bit smaller.
+Calculating.... This may take some time.
+. 
+Running Birthday_solver with 2 and 100... 
+Calculating.... This may take some time.
+In a group of 2 people, there is a 0.27% chance that at least two people will share a birthday.
+Our simulation, however, tells us that there is a 0.00% chance.
+Running Birthday_solver with 2 and 1000... 
+Calculating.... This may take some time.
+In a group of 2 people, there is a 0.27% chance that at least two people will share a birthday.
+Our simulation, however, tells us that there is a 0.40% chance.
+Running Birthday_solver with 2 and 100000... 
+Calculating.... This may take some time.
+In a group of 2 people, there is a 0.27% chance that at least two people will share a birthday.
+Our simulation, however, tells us that there is a 0.18% chance.
+Running Birthday_solver with 2 and 5000000... 
+Calculating.... This may take some time.
+In a group of 2 people, there is a 0.27% chance that at least two people will share a birthday.
+Our simulation, however, tells us that there is a 0.28% chance.
+. 
+Running Birthday_solver with 10 and 100... 
+Calculating.... This may take some time.
+In a group of 10 people, there is a 11.69% chance that at least two people will share a birthday.
+Our simulation, however, tells us that there is a 11.00% chance.
+Running Birthday_solver with 10 and 1000... 
+Calculating.... This may take some time.
+In a group of 10 people, there is a 11.69% chance that at least two people will share a birthday.
+Our simulation, however, tells us that there is a 11.20% chance.
+Running Birthday_solver with 10 and 100000... 
+Calculating.... This may take some time.
+In a group of 10 people, there is a 11.69% chance that at least two people will share a birthday.
+Our simulation, however, tells us that there is a 11.34% chance.
+Running Birthday_solver with 10 and 5000000... 
+Calculating.... This may take some time.
+In a group of 10 people, there is a 11.69% chance that at least two people will share a birthday.
+Our simulation, however, tells us that there is a 11.72% chance.
+. 
+Running Birthday_solver with 65 and 100... 
+Calculating.... This may take some time.
+In a group of 65 people, there is a 99.77% chance that at least two people will share a birthday.
+Our simulation, however, tells us that there is a 100.00% chance.
+Running Birthday_solver with 30 and 1000... 
+Calculating.... This may take some time.
+In a group of 65 people, there is a 99.77% chance that at least two people will share a birthday.
+Our simulation, however, tells us that there is a 99.90% chance.
+Running Birthday_solver with 30 and 100000... 
+Calculating.... This may take some time.
+In a group of 65 people, there is a 99.77% chance that at least two people will share a birthday.
+Our simulation, however, tells us that there is a 99.80% chance.
+Running Birthday_solver with 30 and 5000000... 
+Calculating.... This may take some time.
+In a group of 65 people, there is a 99.77% chance that at least two people will share a birthday.
+Our simulation, however, tells us that there is a 99.77% chance.
+. 
+Running Birthday_solver with 81 and 100... 
+Calculating.... This may take some time.
+In a group of 81 people, there is a 99.99% chance that at least two people will share a birthday.
+Our simulation, however, tells us that there is a 100.00% chance.
+Running Birthday_solver with 81 and 1000... 
+Calculating.... This may take some time.
+In a group of 81 people, there is a 99.99% chance that at least two people will share a birthday.
+Our simulation, however, tells us that there is a 100.00% chance.
+Running Birthday_solver with 81 and 100000... 
+Calculating.... This may take some time.
+In a group of 81 people, there is a 99.99% chance that at least two people will share a birthday.
+Our simulation, however, tells us that there is a 99.99% chance.
+Running Birthday_solver with 81 and 5000000... 
+Calculating.... This may take some time.
+In a group of 81 people, there is a 99.99% chance that at least two people will share a birthday.
+Our simulation, however, tells us that there is a 99.99% chance.
+. 
+Running Birthday_solver with 111 and 100... 
+Calculating.... This may take some time.
+In a group of 111 people, there is a 100.00% chance that at least two people will share a birthday.
+Our simulation, however, tells us that there is a 100.00% chance.
+Running Birthday_solver with 111 and 1000... 
+Calculating.... This may take some time.
+In a group of 111 people, there is a 100.00% chance that at least two people will share a birthday.
+Our simulation, however, tells us that there is a 100.00% chance.
+Running Birthday_solver with 111 and 100000... 
+Calculating.... This may take some time.
+In a group of 111 people, there is a 100.00% chance that at least two people will share a birthday.
+Our simulation, however, tells us that there is a 100.00% chance.
+Running Birthday_solver with 111 and 5000000... 
+Calculating.... This may take some time.
+In a group of 111 people, there is a 100.00% chance that at least two people will share a birthday.
+Our simulation, however, tells us that there is a 100.00% chance.
+. 
